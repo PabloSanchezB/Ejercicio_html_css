@@ -1,0 +1,50 @@
+.container{
+    width: 40%;
+    margin: 0 auto;
+}
+
+fieldset{
+    width: 42%;
+    margin: 0 auto;
+}
+
+.a{
+    width: 46%;
+}
+
+select{
+    width: 23%;
+}
+
+span{
+    font-style: italic;
+}
+
+.bot{
+    margin-left: 24.5%;
+}
+
+.one{
+    margin-left: 16%;
+}
+
+.two{
+    margin-left: 15%;
+}
+
+.three{
+    margin-left: 12%;
+}
+
+.four{
+    margin-left: 8%;
+}
+
+.five{
+    margin-left: 5.5%;
+}
+
+.six{
+    margin-left: 11%;
+}
+

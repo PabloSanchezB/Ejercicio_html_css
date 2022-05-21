@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ejercicio 2</title>
+<style type="text/css" media="screen">
+    @import 'ejercicio_dos.css';
+</style>
+</head>
+<body>
+
+<div class="container">
+<h1>Payment form</h1>
+<p>Required fields are followed by *</p>
+<h2>Contact information</h2>
+<form>
+    <fieldset>
+        <legend>Title</legend>
+        <input type="radio" id="ace" name="title" value="Ace">
+        <label for="ace">Ace</label><br>
+        <input type="radio" id="king" name="title" value="King">
+        <label for="ace">King</label><br>
+        <input type="radio" id="queen" name="title" value="Queen">
+        <label for="ace">Queen</label><br>
+    </fieldset><br>
+    <label class="one" for="name">Name:*</label>
+    <input class="a" type="text" id="name" name="name">
+    <br><br>
+    <label class="two" for="email">E-mail:*</label>
+    <input class="a" type="text" id="email" name="email">
+    <br><br>
+    <label class="three" for="pass">Password:*</label>
+    <input class="a" type="text" id="pass" name="pass">
+    <br><br>
+</form>
+<h2>Payment information</h2>
+<form>
+    <label class="six" for="card_type">Card type:</label>
+    <select name="card_type" id="card_type">
+      <option value="Visa">Visa</option>
+    </select> 
+    <br><br>
+    <label class="four" for="card_number">Card number:*</label>
+    <input class="a" type="text" id="card_number" name="card_number">
+    <br><br>
+    <label class="five" for="exp_date">Expiration date:*</label>
+    <input class="a" type="date" id="exp_date" name="exp_date">
+    <br>
+    <span>formatted as</span><br><span>mm/dd/yyyy</span><br><br>
+    <input class="bot" type="button" value="Validate the payment">
+</form>
+</div>
+</body>
+</html> 
